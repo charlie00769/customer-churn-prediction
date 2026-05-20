@@ -1,9 +1,6 @@
-Perfect — here is your **final polished README in one clean copy-paste text** (no broken sections, no duplicates, fully GitHub-ready):
-
----
 
 ```md
-# 🚀 📊 Customer Churn Prediction System
+# 🚀 📊 Customer Churn Prediction System 
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![ML](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
@@ -126,11 +123,15 @@ streamlit run app.py
 
 ### 🔹 Dashboard Input
 
-![Dashboard](screenshots/churn-dashboard.png)
+<img width="1918" height="994" alt="churn-prediction-ui" src="https://github.com/user-attachments/assets/1f1b6622-d0a8-4d55-b384-0cff3f1139c2" />
+
+
+
 
 ### 🔹 Prediction Output
 
-![Prediction](screenshots/churn-prediction-result.png)
+<img width="370" height="796" alt="churn-prediction-result" src="https://github.com/user-attachments/assets/60bc01e9-751d-4907-afde-18401dc057d2" />
+
 
 ---
 
@@ -180,22 +181,4 @@ If you found this project useful:
 👉 Give it a ⭐ on GitHub
 👉 Share it with others
 
-```
-
----
-
-## 🔥 You're Done
-
-This version is:
-- Clean ✅  
-- Professional ✅  
-- Recruiter-ready ✅  
-- Portfolio-level ✅  
-
----
-
-If you want next upgrade:
-👉 Add **live deployed link** (huge boost)
-
-Just say *deploy* and I’ll guide you step-by-step 🚀
 ```
