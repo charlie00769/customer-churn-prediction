@@ -130,8 +130,10 @@ streamlit run app.py
 
 ```id="b2i5e1"
 screenshots/
-   ├── app-ui.png
-   ├── prediction.png
+   ├── <img width="1918" height="994" alt="churn-prediction-ui" src="https://github.com/user-attachments/assets/49528c38-eb97-49fe-9603-d85ae9a47288" />
+
+   ├── <img width="370" height="796" alt="churn-prediction-result" src="https://github.com/user-attachments/assets/60249831-2f82-4b7b-a876-6f263bffbf4b" />
+
 ```
 
 ```id="o5sf6o"
