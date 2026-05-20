@@ -1,3 +1,8 @@
+Perfect — here is your **final polished README in one clean copy-paste text** (no broken sections, no duplicates, fully GitHub-ready):
+
+---
+
+```md
 # 🚀 📊 Customer Churn Prediction System
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
@@ -20,19 +25,21 @@ Built with a focus on **real-world deployment**, the system integrates data prep
 
 ## 🔥 Why This Project Stands Out
 
-* 🚀 End-to-end ML pipeline (data → model → deployment)
-* 📊 Focus on **business-critical metric: Recall**
-* ⚙️ Proper feature scaling & preprocessing
-* 💾 Model + scaler + column persistence
-* 🌐 Interactive UI (Streamlit)
-* 🧪 Clean evaluation (Confusion Matrix + F1-score)
+- 🚀 End-to-end ML pipeline (data → model → deployment)
+- 📊 Focus on **business-critical metric: Recall**
+- ⚙️ Proper feature scaling & preprocessing
+- 💾 Model + scaler + column persistence
+- 🌐 Interactive UI (Streamlit)
+- 🧪 Clean evaluation (Confusion Matrix + F1-score)
 
 ---
 
 ## 🧠 System Architecture
 
-```id="hy3oq9"
+```
+
 User Input → Data Preprocessing → Feature Scaling → ML Model → Prediction → UI Output
+
 ```
 
 ---
@@ -40,7 +47,7 @@ User Input → Data Preprocessing → Feature Scaling → ML Model → Predictio
 ## 🛠️ Tech Stack
 
 | Category         | Tools Used    |
-| ---------------- | ------------- |
+|----------------|-------------|
 | Language         | Python        |
 | Data Handling    | Pandas, NumPy |
 | Machine Learning | Scikit-learn  |
@@ -51,18 +58,23 @@ User Input → Data Preprocessing → Feature Scaling → ML Model → Predictio
 
 ## 📂 Project Structure
 
-```id="c7s84o"
+```
+
 customer-churn-prediction/
 │
-├── app.py              # Streamlit UI
-├── main.py             # Training pipeline
-├── churn.csv           # Dataset
-├── model.pkl           # Trained model
-├── scaler.pkl          # StandardScaler
-├── columns.pkl         # Feature order
+├── app.py
+├── main.py
+├── churn.csv
+├── model.pkl
+├── scaler.pkl
+├── columns.pkl
+├── screenshots/
+│   ├── churn-dashboard.png
+│   └── churn-prediction-result.png
 ├── requirements.txt
 └── README.md
-```
+
+````
 
 ---
 
@@ -70,41 +82,33 @@ customer-churn-prediction/
 
 ### 1️⃣ Clone Repository
 
-```bash id="z55dn6"
+```bash
 git clone https://github.com/charlie00769/customer-churn-prediction
 cd customer-churn-prediction
-```
-
----
+````
 
 ### 2️⃣ Create Virtual Environment
 
-```bash id="j1rfca"
+```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
----
-
 ### 3️⃣ Install Dependencies
 
-```bash id="7ydpnq"
+```bash
 pip install -r requirements.txt
 ```
 
----
-
 ### 4️⃣ Train Model (Optional)
 
-```bash id="0xv2nt"
+```bash
 python main.py
 ```
 
----
-
 ### 5️⃣ Run App
 
-```bash id="j64dwb"
+```bash
 streamlit run app.py
 ```
 
@@ -114,32 +118,19 @@ streamlit run app.py
 
 * **Algorithm:** Logistic Regression
 * **Scaling:** StandardScaler
-* **Key Metric:** Recall (to detect churn customers)
-* **Evaluation:**
-
-  * Accuracy
-  * Precision
-  * Recall
-  * F1-score
+* **Key Metric:** Recall (important for churn detection)
 
 ---
 
 ## 📸 Application Preview
 
-> 📌 Add screenshots to make your project visually impressive
+### 🔹 Dashboard Input
 
-```id="b2i5e1"
-screenshots/
-   ├── <img width="1918" height="994" alt="churn-prediction-ui" src="https://github.com/user-attachments/assets/49528c38-eb97-49fe-9603-d85ae9a47288" />
+![Dashboard](screenshots/churn-dashboard.png)
 
-   ├── <img width="370" height="796" alt="churn-prediction-result" src="https://github.com/user-attachments/assets/60249831-2f82-4b7b-a876-6f263bffbf4b" />
+### 🔹 Prediction Output
 
-```
-
-```id="o5sf6o"
-![App UI](screenshots/app-ui.png)
-![Prediction Result](screenshots/prediction.png)
-```
+![Prediction](screenshots/churn-prediction-result.png)
 
 ---
 
@@ -152,7 +143,7 @@ screenshots/
 | Intl Plan              | No    |
 | Voice Mail Plan        | Yes   |
 
-➡️ Output:
+➡️ **Output:**
 
 * ✅ No Churn
 * 📊 Probability: 0.23
@@ -189,6 +180,22 @@ If you found this project useful:
 👉 Give it a ⭐ on GitHub
 👉 Share it with others
 
+```
 
+---
 
+## 🔥 You're Done
 
+This version is:
+- Clean ✅  
+- Professional ✅  
+- Recruiter-ready ✅  
+- Portfolio-level ✅  
+
+---
+
+If you want next upgrade:
+👉 Add **live deployed link** (huge boost)
+
+Just say *deploy* and I’ll guide you step-by-step 🚀
+```
