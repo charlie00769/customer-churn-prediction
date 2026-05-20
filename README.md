@@ -1,6 +1,4 @@
-
-```md
-# 🚀 📊 Customer Churn Prediction System 
+# Customer Churn Prediction System
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![ML](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
@@ -10,53 +8,48 @@
 
 ---
 
-## 💡 Project Overview
+## Overview
 
-This project presents a **production-grade machine learning pipeline** designed to predict customer churn in telecom systems.
+An end-to-end machine learning pipeline that predicts customer churn in telecom systems — from raw data to an interactive prediction interface.
 
-Built with a focus on **real-world deployment**, the system integrates data preprocessing, feature engineering, model training, and an interactive prediction interface.
-
-> 🎯 **Goal:** Identify customers likely to churn and enable proactive retention strategies.
+**Goal:** Identify customers likely to churn and enable proactive retention strategies.
 
 ---
 
-## 🔥 Why This Project Stands Out
+## Why This Project Stands Out
 
-- 🚀 End-to-end ML pipeline (data → model → deployment)
-- 📊 Focus on **business-critical metric: Recall**
-- ⚙️ Proper feature scaling & preprocessing
-- 💾 Model + scaler + column persistence
-- 🌐 Interactive UI (Streamlit)
-- 🧪 Clean evaluation (Confusion Matrix + F1-score)
+- End-to-end ML pipeline: data → model → deployment
+- Business-critical metric focus: **Recall**
+- Proper feature scaling and preprocessing
+- Model + scaler + column persistence via Pickle
+- Interactive UI built with Streamlit
+- Clean evaluation using Confusion Matrix and F1-score
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
 ```
-
 User Input → Data Preprocessing → Feature Scaling → ML Model → Prediction → UI Output
-
 ```
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-| Category         | Tools Used    |
-|----------------|-------------|
-| Language         | Python        |
-| Data Handling    | Pandas, NumPy |
-| Machine Learning | Scikit-learn  |
-| Deployment UI    | Streamlit     |
-| Serialization    | Pickle        |
+| Category         | Tools           |
+|------------------|-----------------|
+| Language         | Python 3.10     |
+| Data Handling    | Pandas, NumPy   |
+| Machine Learning | Scikit-learn    |
+| Deployment UI    | Streamlit       |
+| Serialization    | Pickle          |
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
-
 customer-churn-prediction/
 │
 ├── app.py
@@ -70,40 +63,39 @@ customer-churn-prediction/
 │   └── churn-prediction-result.png
 ├── requirements.txt
 └── README.md
-
-````
+```
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
-### 1️⃣ Clone Repository
+**1. Clone the repository**
 
 ```bash
 git clone https://github.com/charlie00769/customer-churn-prediction
 cd customer-churn-prediction
-````
+```
 
-### 2️⃣ Create Virtual Environment
+**2. Create a virtual environment**
 
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
-### 3️⃣ Install Dependencies
+**3. Install dependencies**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Train Model (Optional)
+**4. Train the model** *(optional — pre-trained model included)*
 
 ```bash
 python main.py
 ```
 
-### 5️⃣ Run App
+**5. Run the app**
 
 ```bash
 streamlit run app.py
@@ -111,74 +103,64 @@ streamlit run app.py
 
 ---
 
-## 📊 Model Insights
+## Model Details
 
-* **Algorithm:** Logistic Regression
-* **Scaling:** StandardScaler
-* **Key Metric:** Recall (important for churn detection)
+| Property    | Value               |
+|-------------|---------------------|
+| Algorithm   | Logistic Regression |
+| Scaling     | StandardScaler      |
+| Key Metric  | Recall              |
 
 ---
 
-## 📸 Application Preview
+## Application Preview
 
-### 🔹 Dashboard Input
+**Dashboard Input**
 
 <img width="1918" height="994" alt="churn-prediction-ui" src="https://github.com/user-attachments/assets/1f1b6622-d0a8-4d55-b384-0cff3f1139c2" />
 
-
-
-
-### 🔹 Prediction Output
+**Prediction Output**
 
 <img width="370" height="796" alt="churn-prediction-result" src="https://github.com/user-attachments/assets/60bc01e9-751d-4907-afde-18401dc057d2" />
 
-
 ---
 
-## 🎯 Sample Prediction
+## Sample Prediction
 
 | Feature                | Value |
-| ---------------------- | ----- |
+|------------------------|-------|
 | Day Minutes            | 200   |
 | Customer Service Calls | 2     |
-| Intl Plan              | No    |
+| International Plan     | No    |
 | Voice Mail Plan        | Yes   |
 
-➡️ **Output:**
-
-* ✅ No Churn
-* 📊 Probability: 0.23
+**Output:** No Churn — Probability: `0.23`
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
-* 📊 Data visualization dashboard
-* 📁 Bulk predictions via CSV
-* ☁️ Cloud deployment (Streamlit Cloud / AWS)
-* 🤖 Advanced ML models (XGBoost, Random Forest)
-
----
-
-## 📌 Real-World Applications
-
-* Telecom churn prediction
-* SaaS customer retention
-* Subscription analytics
+- Data visualization dashboard
+- Bulk predictions via CSV upload
+- Cloud deployment (Streamlit Cloud / AWS)
+- Advanced models: XGBoost, Random Forest
 
 ---
 
-## 👨‍💻 Author
+## Real-World Applications
+
+- Telecom churn prediction
+- SaaS customer retention
+- Subscription analytics
+
+---
+
+## Author
 
 **Kaustubh Valanjuwani**
 
 ---
 
-## ⭐ Support
+## Support
 
-If you found this project useful:
-
-👉 Give it a ⭐ on GitHub
-👉 Share it with others
-
-```
+If this project was useful, give it a ⭐ on GitHub and share it with others.
